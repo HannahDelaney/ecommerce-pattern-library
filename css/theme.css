@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #ad6d00;
+  --color-primary-light: #e9c367;
+  --color-primary-dark: #734400;
+  --color-secondary: #ffd83b;
+
+  --font-primary: cronos-pro, sans-serif;
+  --font-secondary: masqualero, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
