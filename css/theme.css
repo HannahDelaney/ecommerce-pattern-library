@@ -3,6 +3,8 @@
   --color-primary-light: #e9c367;
   --color-primary-dark: #734400;
   --color-secondary: #ffd83b;
+  --color-black: #000;
+  --color-white: #fff;
 
   --font-primary: cronos-pro, sans-serif;
   --font-secondary: masqualero, sans-serif;
@@ -10,4 +12,116 @@
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-black);
+}
+
+/* Typography */
+
+h1 {
+  font-weight: bold;
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3 {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  font-style: normal;
+  font-family: var(--font-secondary);
+}
+
+h4 {
+  font-weight: normal;
+  font-style: normal;
+  font-family: var(--font-secondary);
+}
+
+h5 {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  font-style: normal;
+  font-family: var(--font-secondary);
+}
+
+h6 {
+  color: var(--primary-dark);
+  font-weight: normal;
+  font-style: normal;
+  font-family: var(--font-secondary);
+}
+
+ul,
+ol,
+dl {
+  color: var(--color-black);
+  font-weight: normal;
+  font-style: normal;
+  font-family: var(--font-secondary);
+}
+
+/* nav a {
+  color: var(--color-black);
+  font-weight: normal;
+  font-style: normal;
+  font-family: var(--font-secondary);
+} */
+
+a {
+  color: var(--color-primary);
+  font-weight: normal;
+  font-style: normal;
+  font-family: var(--font-primary);
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* .footer-address {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-style: normal;
+  font-family: var(--font-primary);
+}
+
+.footer-notes {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+} */
+
+blockquote {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: normal;
+}
+
+cite {
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark);
+}
+
+q {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+strong {
+  font-family: var(--font-secondary);
+}
+
+dfn {
+  font-family: var(--font-secondary);
+}
+
+mark {
+  background: var(--color-primary-light);
+}
+
+::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-dark);
 }

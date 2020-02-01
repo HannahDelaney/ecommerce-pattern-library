@@ -1,0 +1,37 @@
+.btn {
+  background-color: transparent;
+  border-color: var(--color-black);
+  color: var(--color-black);
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: var(--color-primary-dark);
+  color: var(--color-primary-dark);
+  transition: all .3s ease;
+}
+
+.btn-alt:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-solid {
+  background-color: var(--color-primary-dark);
+  color: var(--color-white);
+  border-color: var(--color-primary-dark);
+  transition: all .3s ease;
+
+}
+
+.btn-solid:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}

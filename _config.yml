@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Vitamin Bee"
+  description:
+    A family run bee farm business that specializes in honey and honey-based products, in addition to education about the bee life cycle and the health benefits of honey.
   font_url: "https://use.typekit.net/vxs6quk.css"
+  colors:
+    background: "--color-white"
+    accent: "--color-primary-dark"
+    patterns:
+      brand.logos: "--color-primary-light"
+  rationales:
+    typefaces.primary: |
+      Cronos provides a solid sans-serif in which to do buttons and basic product descriptions, so the design is clean and functional.
+    typefaces.secondary: |
+      Masquarelo was chosen as a heading font, which is meant to invoke a sense of whimsy to the design.
+    colors.primary: |
+      The primary colours are variants of a warm yellowish-brown, meant of course to symbolize the honey being sold but to also look earthy and natural.
+    colors.secondary: |
+      This additional yellow is a brighter shade, that is meant to be used as an accent. The colour is reminiscent of honey but stands out from the main palette.
