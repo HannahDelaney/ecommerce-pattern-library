@@ -125,3 +125,11 @@ mark {
   background-color: var(--color-secondary);
   color: var(--color-primary-dark);
 }
+
+/* .icon a {
+  color: var(--color-black);
+}
+
+.icon a:hover {
+  color: var(--color-primary-dark);
+} */
