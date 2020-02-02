@@ -1,0 +1,17 @@
+.product-card {
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn {
+  display: inline-block;
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h4 {
+  text-align: center;
+  padding-top: 2rem;
+}
