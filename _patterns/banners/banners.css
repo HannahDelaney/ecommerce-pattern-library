@@ -1,0 +1,96 @@
+.banner-dark,
+.banner-light {
+  background-image: url("../images/banners/main-1.jpg");
+  background-size: cover;
+  border-bottom: 50px solid var(--color-primary-dark);
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: center;
+  min-height: 45vh;
+}
+
+.banner-light {
+  background-image: url("../images/banners/main-2.jpg");
+}
+
+.card-pad {
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 21em) {
+
+  .banner-dark,
+  .banner-light {
+    min-height: 50vh;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner-dark,
+  .banner-light {
+    min-height: 50vh;
+  }
+
+  .card-pad {
+    padding: 2rem;
+  }
+
+  .banner-overlay-dark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15%;
+  }
+
+  .banner-overlay-light {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+  }
+
+}
+
+@media only screen and (min-width: 32em) {
+
+  .banner-dark,
+  .banner-light {
+    background-position: center;
+    min-height: 60vh;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  .banner-dark,
+  .banner-light {
+    min-height: 65vh;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-dark,
+  .banner-light {
+    min-height: 70vh;
+  }
+
+  .banner-overlay-dark,
+  .banner-overlay-light {
+    width: 500px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-dark,
+  .banner-light {
+    min-height: 80vh;
+  }
+
+}
