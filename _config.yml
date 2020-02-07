@@ -10,7 +10,7 @@ patternbot:
     background: "--color-white"
     accent: "--color-primary-dark"
     patterns:
-      brand.logos: "--color-primary-light"
+      brand.logos: "--color-secondary"
   rationales:
     typefaces.primary: |
       Cronos provides a solid sans-serif in which to do buttons and basic product descriptions, so the design is clean and functional.
