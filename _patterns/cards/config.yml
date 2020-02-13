@@ -1,0 +1,25 @@
+title: "Cards"
+description: |
+  Cards are used throughout the site, primary over banners and as product links. They are all shaped like honeycomb to thematically match the products being sold.
+
+patterns:
+  card-dark:
+    title: "Card Dark"
+    description: |
+      A dark overlay card, to be used on lighter images. Displays on the right side of banners.
+  card-light:
+    title: "Card Light"
+    description: |
+      A light overlay card, to be used on darker images. Displays on the left side of banners.
+  card-w-btns:
+    title: "Card with Buttons"
+    description: |
+      This card has a series of buttons on it, as a way to navigate easily from the full product list page.
+  product-link:
+    title: "Product Image Link"
+    description: |
+      These cards are used as links to individual product pages. Each one has a coloured overlay to showcase the icon and hover state "View Product" button. Each product has an individual icon associated to it.
+  product-special:
+    title: "Product with a special attribute"
+    description: |
+      This card will be used in lieu of a product image on an individual product page, assuming the product is either new, or on sale.

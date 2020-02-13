@@ -3,33 +3,34 @@
 .product-card {
   width: 100%;
   max-width: 500px;
-  transition: all .3s ease;
 }
 
 .icon-product {
-  display: inline-block;
+  opacity: 1;
   position: absolute;
   bottom: 15%;
   left: 50%;
   transform: translateX(-50%);
   width: 30%;
   height: 30%;
+  transition: all .3s ease;
 }
 
 .btn-div {
-  display: none;
+  opacity: 0;
   position: absolute;
   bottom: 22.5%;
   left: 50%;
   transform: translateX(-50%);
+  transition: all .3s ease;
 }
 
 .product-card:hover .icon-product {
-  display: none;
+  opacity: 0;
 }
 
 .product-card:hover .btn-div {
-  display: inline-block;
+  opacity: 1;
 }
 
 h4 {

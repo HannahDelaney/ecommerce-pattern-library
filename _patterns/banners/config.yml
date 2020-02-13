@@ -1,0 +1,15 @@
+title: "Banners"
+description: |
+  Banners are how images are displayed on the site, unless they are a product. Each has an overaly card to link to relevant content.
+
+patterns:
+  banner-dark-card:
+    title: "Banner with dark overlay card"
+    description: |
+      This banner image should have an image that is lighter, so as to have the best contrast with the card overlay. Ideally, it will also feature a subject that is closer to the left so the subject is not covered by the card.
+    height: 800
+  banner-light-card:
+    title: "Banner with light overlay card"
+    description: |
+      This banner image should have an image that is darker, so as to have the best contrast with the card overlay. Ideally, it will also feature a subject that is closer to the right so the subject is not covered by the card.
+    height: 800
