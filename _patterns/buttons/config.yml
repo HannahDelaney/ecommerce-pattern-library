@@ -1,0 +1,21 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  main:
+    title: "Main"
+    description: |
+      Primary button, to be used in most situations.
+    width: "12em"
+  main-alt:
+    title: "Main Alternate"
+    description: |
+      Alternate option to the main, to be used for actions that are of particular significance on a page ie. "Add to Cart".
+    width: "12em"
+  solid:
+    title: "Solid"
+    description: |
+      Solid colour button, used only for actions involving the checkout process. This includes the "Checkout" and "Place Order" buttons.
+    width: "12em"
+    background: "--color-primary-light"
