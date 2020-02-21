@@ -1,8 +1,8 @@
-<div class="product-card">
+<div class="product-card gutter-1-4">
   <div class="relative embed embed-1by1">
-    <img class="embed-item" src="/images/products/honey/honey-orange-link.png" alt="Our product: honey with orange in a jar.">
+    <img class="embed-item" src="/images/products/{{include.image}}" alt="{{include.alt}}">
     <i class="icon icon-product">
-      <svg><use xlink:href="/images/icons.svg#orange" /></svg>
+      <svg><use xlink:href="/images/icons.svg#{{include.icon}}" /></svg>
     </i>
     <div class="btn-div">
       {% pattern buttons/main btn="View Product" %}

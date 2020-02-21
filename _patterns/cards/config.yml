@@ -7,19 +7,66 @@ patterns:
     title: "Card Dark"
     description: |
       A dark overlay card, to be used on lighter images. Displays on the right side of banners.
+    fields:
+      - name: 'h1'
+        type: 'string'
+        example: 'WELCOME to the bee box'
+      - name: 'h2'
+        type: 'string'
+        example: 'Vitamin Bee is Ottawa’s one stop resource for all-natural, raw honey products.'
+      - name: 'icon'
+        type: 'string'
+        example: 'honey-dipper'
   card-light:
     title: "Card Light"
     description: |
       A light overlay card, to be used on darker images. Displays on the left side of banners.
+    fields:
+      - name: 'h1'
+        type: 'string'
+        example: 'An all-natural family business'
+      - name: 'h2'
+        type: 'string'
+        example: 'For over 40 years, our family has been curating a wide array of honey flavours.'
+      - name: 'icon'
+        type: 'string'
+        example: 'beehive'
   card-w-btns:
     title: "Card with Buttons"
     description: |
       This card has a series of buttons on it, as a way to navigate easily from the full product list page.
+    fields:
+      - name: 'icon'
+        type: 'string'
+        example: 'bee'
   product-link:
     title: "Product Image Link"
     description: |
       These cards are used as links to individual product pages. Each one has a coloured overlay to showcase the icon and hover state "View Product" button. Each product has an individual icon associated to it.
+    fields:
+      - name: 'image'
+        type: 'string'
+        example: 'honey/honey-orange-link.png'
+      - name: 'icon'
+        type: 'string'
+        example: 'orange'
+      - name: 'alt'
+        type: 'string'
+        example: 'Our product: honey with orange in a jar.'
   product-special:
     title: "Product with a special attribute"
     description: |
       This card will be used in lieu of a product image on an individual product page, assuming the product is either new, or on sale.
+    fields:
+      - name: 'image'
+        type: 'string'
+        example: 'honey/honey-orange.png'
+      - name: 'alt'
+        type: 'string'
+        example: 'Our product: honey with orange in a jar.'
+      - name: 'alt-special'
+        type: 'string'
+        example: 'On Sale'
+      - name: 'icon'
+        type: 'string'
+        example: 'sale'
