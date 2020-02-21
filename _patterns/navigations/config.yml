@@ -1,0 +1,36 @@
+title: "Navigations"
+description: |
+  There are various navigations on the site, which are either visible on every page, or part of a product page.
+
+patterns:
+  search-bar-nav:
+    title: "Search Bar"
+    description: |
+      This search navigation is seen at the top of the heading banner, on every screen.
+    fields:
+      - name: 'cart-amount'
+        type: 'string'
+        example: '2'
+  breadcrumbs:
+    title: "Breadcrumb Links"
+    description: |
+      Breadcrumbs are seen at the top of product pages, to indicate what section is being displayed.
+    fields:
+      - name: 'shop-category'
+        type: 'string'
+        example: 'Body Products'
+      - name: 'product'
+        type: 'string'
+        example: 'After Sun Soother'
+  page-numbers:
+    title: "Page Navigation"
+    description: |
+      The page number navigation is to be used when there are multiple pages or images to be displayed.
+  social-nav:
+    title: "Social Icons"
+    description: |
+      Social media icons that are part of the footer navigation.
+  footer-content-nav:
+    title: "Footer Navigation"
+    description: |
+      This navigation is used only in the footer, to be seen on every page.

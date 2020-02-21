@@ -1,0 +1,22 @@
+.breadcrumbs a,
+.footer-nav a,
+.page-numbers a {
+  text-decoration: none;
+}
+
+.current {
+  color: var(--color-primary-dark);
+}
+
+.footer-nav {
+
+}
+
+.search-bar i {
+  color: var(--color-black);
+}
+
+.cart-amount {
+  color: var(--color-primary-dark);
+  font-family: var(--font-primary);
+}

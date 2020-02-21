@@ -1,0 +1,16 @@
+<div class="search-bar">
+  <ul class="list-group-inline text-right gutter">
+    <li class="valign-middle">
+      {% pattern forms/search-form %}
+    </li>
+    <li class="valign-middle"><span>|</span></li>
+    <li class="valign-middle">
+      <i class="icon i-1-3-4">
+        <svg><use xlink:href="/images/icons.svg#cart" /></svg>
+      </i>
+    </li>
+    <li class="valign-middle">
+      <span class="cart-amount">{{include.cart-amount}}</span>
+    </li>
+  </ul>
+</div>
