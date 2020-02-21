@@ -34,13 +34,17 @@
 
 .btn-solid:hover {
   background-color: var(--color-black);
-  border-color: var(--color-primary);
 }
 
-.icon-link {
+.icon-link,
+i {
   transition: all .3s ease;
 }
 
 .icon-link:hover {
   color: var(--color-primary-dark);
+}
+
+.icon-link:hover i {
+  transform: scale(1.1);
 }

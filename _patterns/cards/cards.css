@@ -5,6 +5,12 @@
   max-width: 500px;
 }
 
+.card-light-icon i,
+.card-dark-icon i,
+.product-card i {
+  color: var(--color-black);
+}
+
 .icon-product {
   opacity: 1;
   position: absolute;

@@ -1,6 +1,7 @@
 .banner-dark,
 .banner-light {
   background-image: url("../images/banners/main-1.jpg");
+  background-color: var(--color-primary-light);
   background-size: cover;
   border-bottom: 50px solid var(--color-primary-dark);
   background-position: top;
@@ -33,22 +34,9 @@
     min-height: 50vh;
   }
 
-  .card-pad {
-    padding: 2rem;
-  }
-
-  .banner-overlay-dark {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 15%;
-  }
-
+  .banner-overlay-dark,
   .banner-overlay-light {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 15%;
+    width: 300px:
   }
 
 }
@@ -59,6 +47,26 @@
   .banner-light {
     background-position: center;
     min-height: 60vh;
+  }
+
+  .card-pad {
+    padding: 2rem;
+  }
+
+  .banner-overlay-dark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15%;
+    width: 400px;
+  }
+
+  .banner-overlay-light {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    width: 400px;
   }
 
 }

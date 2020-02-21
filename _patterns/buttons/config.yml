@@ -8,14 +8,34 @@ patterns:
     description: |
       Primary button, to be used in most situations.
     width: "12em"
+    fields:
+      - name: 'btn'
+        type: 'string'
+        example: 'View Product'
   main-alt:
     title: "Main Alternate"
     description: |
       Alternate option to the main, to be used for actions that are of particular significance on a page ie. "Add to Cart".
     width: "12em"
+    fields:
+      - name: 'btn-alt'
+        type: 'string'
+        example: 'Learn More'
   solid:
     title: "Solid"
     description: |
       Solid colour button, used only for actions involving the checkout process. This includes the "Checkout" and "Place Order" buttons.
     width: "12em"
+    fields:
+      - name: 'solid'
+        type: 'string'
+        example: 'CHECKOUT'
     background: "--color-primary-light"
+  icon-link:
+    title: "Icon Link"
+    description: |
+      This icon link is used for specific icon instances when only an icon is need to signify a link tag, such as for social media or the cart.
+    fields:
+      - name: 'image'
+        type: 'string'
+        example: 'cart'
