@@ -1,0 +1,26 @@
+<div class="product-info">
+  <div class="grid grid-middle gutter-1-4">
+    <div class="unit xs-1 m-1-2 gutter">
+      <div class="embed embed-1by1">
+        <img class="embed-item" src="/images/products/{{include.image}}" alt="">
+      </div>
+    </div>
+    <div class="unit xs-1 m-1-2 gutter">
+      <i class="icon i-128">
+        <svg><use xlink:href="/images/icons.svg#{{include.icon}}" /></svg>
+      </i>
+      <h3 class="zetta push-1-2">{{include.product-title}}</h3>
+      <p>{{include.product-info}}</p>
+      <p class="peta push-1-2 price">{{include.product-price}}</p>
+      <div class="grid grid-bottom">
+        <div class="unit xs-1-2">
+          {% pattern forms/number-form %}
+        </div>
+        <div class="unit xs-1-2 gutter">
+          {% pattern buttons/main-alt btn-alt="Add to Cart" %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

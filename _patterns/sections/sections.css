@@ -1,0 +1,93 @@
+.product-info {
+  max-width: 90vw;
+}
+
+i {
+  color: var(--color-primary-dark);
+}
+
+.price {
+  color: var(--color-primary);
+}
+
+.subscribe-content {
+  max-width: 70%;
+}
+
+h4 {
+  text-align: left;
+}
+
+h6 span {
+  color: var(--color-primary-dark);
+}
+
+.para {
+  padding-right: 2rem;
+}
+
+.subscribe-icon,
+.para {
+  display: none;
+}
+
+/* Background image and sizing */
+
+.subscribe {
+  background-image: url("../images/banners/subscribe.jpg");
+  background-color: var(--color-primary-light);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  align-items: center;
+  min-height: 45vh;
+}
+
+@media only screen and (min-width: 21em) {
+
+  .subscribe {
+    min-height: 50vh;
+  }
+
+}
+
+@media only screen and (min-width: 32em) {
+
+  .subscribe {
+    min-height: 60vh;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  .subscribe {
+    min-height: 65vh;
+  }
+
+  .icon,
+  .para {
+    display: block;
+  }
+
+  .email {
+    padding-right: 10rem;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .subscribe {
+    min-height: 70vh;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .subscribe {
+    min-height: 80vh;
+  }
+
+}
