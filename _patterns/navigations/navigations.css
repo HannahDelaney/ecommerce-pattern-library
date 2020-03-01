@@ -1,4 +1,5 @@
 .breadcrumbs a,
+.header-nav a,
 .footer-nav a,
 .page-numbers a {
   text-decoration: none;
@@ -8,10 +9,6 @@
   color: var(--color-primary-dark);
 }
 
-.footer-nav {
-
-}
-
 .search-bar i {
   color: var(--color-black);
 }
@@ -19,4 +16,78 @@
 .cart-amount {
   color: var(--color-primary-dark);
   font-family: var(--font-primary);
+}
+
+.header-nav a {
+  font-family: var(--font-secondary);
+  color: var(--color-black);
+  transition: all .3s ease;
+}
+
+.header-nav a:hover {
+  color: var(--color-primary);
+}
+
+.header-nav > li {
+  display: block;
+  text-align: center;
+}
+
+ul > li::before {
+  content: none;
+}
+
+.header-nav {
+  position: relative;
+  padding-top: 2em;
+}
+
+/* burger stuff */
+
+.header-nav {
+  display: none;
+}
+
+[type="checkbox"].burger-check + label::before {
+  position: absolute;
+  top: -100em;
+}
+
+.burger-check:checked ~ .header-nav {
+  display: block;
+}
+
+.burger-label {
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url("../images/hamburger.svg");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.burger-check:checked ~ .burger-label {
+  background-position: center bottom;
+}
+
+@media only screen and (min-width: 38em) {
+
+  input.burger-check,
+  label.burger-label {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    padding: 0;
+    transform: none;
+  }
+
 }
