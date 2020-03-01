@@ -1,0 +1,7 @@
+title: "Header"
+description: |
+  The header should been seen in this state on all pages.
+
+patterns:
+  header:
+    title: "Header"

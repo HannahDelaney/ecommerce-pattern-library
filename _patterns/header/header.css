@@ -1,0 +1,15 @@
+.logo {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scribble-top {
+  z-index: 1000;
+  bottom: -1rem;
+  width: 100%;
+}
+
+.grid-bottom-align {
+  padding-bottom: 1rem;
+}
