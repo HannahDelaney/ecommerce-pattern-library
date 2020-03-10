@@ -12,6 +12,9 @@ patterns:
       - name: 'btn'
         type: 'string'
         example: 'View Product'
+      - name: 'link'
+        type: 'string'
+        example: '#'
   main-alt:
     title: "Main Alternate"
     description: |
@@ -21,6 +24,9 @@ patterns:
       - name: 'btn-alt'
         type: 'string'
         example: 'Learn More'
+      - name: 'link'
+        type: 'string'
+        example: '#'
   solid:
     title: "Solid"
     description: |
@@ -30,6 +36,9 @@ patterns:
       - name: 'solid'
         type: 'string'
         example: 'CHECKOUT'
+      - name: 'link'
+        type: 'string'
+        example: '#'
     background: "--color-primary-light"
   icon-link:
     title: "Icon Link"
@@ -39,3 +48,6 @@ patterns:
       - name: 'image'
         type: 'string'
         example: 'cart'
+      - name: 'link'
+        type: 'string'
+        example: '#'

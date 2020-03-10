@@ -8,7 +8,9 @@
       <h1 class="peta push-1-2">{{include.h1}}</h1>
       <hr class="push-1-2">
       <h2 class="kilo">{{include.h2}}</h2>
-      {% pattern buttons/main btn="See Shop" %}
+      {% if include.link %}
+        {% pattern buttons/main btn=include.btn link=include.link %}
+      {% endif %}
     </div>
     <div class="card-dark-icon">
       <img class="img-flex" src="/images/cards/card-float.svg" alt="A small yellow honeycomb hexagon.">

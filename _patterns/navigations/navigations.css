@@ -42,6 +42,22 @@ ul > li::before {
   padding-top: 2em;
 }
 
+.footer-nav a {
+  transition: all .3s linear;
+}
+
+.footer-nav a:hover {
+  color: var(--color-primary-dark);
+}
+
+.current a:after {
+  content: "."
+}
+
+.current a {
+  border-bottom: 3px solid var(--color-primary-light);
+}
+
 /* burger stuff */
 
 .header-nav {
@@ -75,6 +91,15 @@ ul > li::before {
 }
 
 @media only screen and (min-width: 38em) {
+
+  .burger-check:checked ~ .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+    padding: 0;
+    transform: none;
+  }
 
   input.burger-check,
   label.burger-label {

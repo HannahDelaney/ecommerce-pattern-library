@@ -17,6 +17,12 @@ patterns:
       - name: 'icon'
         type: 'string'
         example: 'honey-dipper'
+      - name: 'btn'
+        type: 'string'
+        example: 'See Shop'
+      - name: 'link'
+        type: 'url'
+        example: '#'
   card-light:
     title: "Card Light"
     description: |
@@ -31,6 +37,12 @@ patterns:
       - name: 'icon'
         type: 'string'
         example: 'beehive'
+      - name: 'btn'
+        type: 'string'
+        example: 'Learn More'
+      - name: 'link'
+        type: 'url'
+        example: '#'
   card-w-btns:
     title: "Card with Buttons"
     description: |
@@ -39,6 +51,9 @@ patterns:
       - name: 'icon'
         type: 'string'
         example: 'bee'
+      - name: 'link'
+        type: 'url'
+        example: '#'
   product-link:
     title: "Product Image Link"
     description: |
@@ -53,6 +68,9 @@ patterns:
       - name: 'alt'
         type: 'string'
         example: 'Our product: honey with orange in a jar.'
+      - name: 'link'
+        type: 'url'
+        example: '#'
   product-special:
     title: "Product with a special attribute"
     description: |
@@ -70,3 +88,6 @@ patterns:
       - name: 'icon'
         type: 'string'
         example: 'sale'
+      - name: 'link'
+        type: 'url'
+        example: '#'

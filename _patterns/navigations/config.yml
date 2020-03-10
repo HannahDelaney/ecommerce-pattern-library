@@ -11,6 +11,10 @@ patterns:
       - name: 'cart-amount'
         type: 'string'
         example: '2'
+  header-content-nav:
+    title: "Header Navigation"
+    description: |
+      This navigation is used only in the header, to be seen on every page.
   breadcrumbs:
     title: "Breadcrumb Links"
     description: |

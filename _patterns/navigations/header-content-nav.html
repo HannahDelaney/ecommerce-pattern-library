@@ -1,21 +1,17 @@
 <nav class="relative" role="navigation" id="nav">
   <input class="burger-check" name="burger-check" id="burger-check" type="checkbox" aria-label="Click to open navigation" required>
-  <label class="burger-label" for="burger-check">
-    <i class="icon">
-      <svg><use xlink:href="/images/icons.svg#hamburger" /></svg>
-    </i>
-  </label>
+  <label class="burger-label" for="burger-check"></label>
   <ul class="header-nav tera" id="menu">
-    <li class="push-1-2">
-      <a href="#">Shop</a>
+    <li class="push-1-2 {% if page.highlight_nav == 'shop' %}current{% endif %}">
+      <a href="/shop/">Shop</a>
     </li>
-    <li class="push-1-2">
+    <li class="push-1-2 {% if page.highlight_nav == 'story' %}current{% endif %}">
       <a href="#">Our Story</a>
     </li>
-    <li class="push-1-2">
+    <li class="push-1-2 {% if page.highlight_nav == 'health' %}current{% endif %}">
       <a href="#">Health Benefits</a>
     </li>
-    <li class="push-1-2">
+    <li class="push-1-2 {% if page.highlight_nav == 'visit' %}current{% endif %}">
       <a href="#">Visit Us</a>
     </li>
   </ul>

@@ -1,6 +1,6 @@
 title: "Banners"
 description: |
-  Banners are how images are displayed on the site, unless they are a product. Each has an overaly card to link to relevant content.
+  Banners are how images are displayed on the site, unless they are a product. Each has an overlay card to link to relevant content.
 
 patterns:
   banner-dark-card:
@@ -8,8 +8,44 @@ patterns:
     description: |
       This banner image should have an image that is lighter, so as to have the best contrast with the card overlay. Ideally, it will also feature a subject that is closer to the left so the subject is not covered by the card.
     height: 800
+    fields:
+      - name: 'img'
+        type: 'string'
+        example: '/images/banners/main-1.jpg'
+      - name: 'h1'
+        type: 'string'
+        example: 'WELCOME to the bee box'
+      - name: 'h2'
+        type: 'string'
+        example: 'Vitamin Bee is Ottawa’s one stop resource for all-natural, raw honey products.'
+      - name: 'icon'
+        type: 'string'
+        example: 'honey-dipper'
+      - name: 'btn'
+        type: 'string'
+        example: 'See Shop'
+      - name: 'link'
+        type: 'url'
+        example: '/shop/'
+        required: false
   banner-light-card:
     title: "Banner with light overlay card"
     description: |
       This banner image should have an image that is darker, so as to have the best contrast with the card overlay. Ideally, it will also feature a subject that is closer to the right so the subject is not covered by the card.
     height: 800
+    fields:
+      - name: 'img'
+        type: 'string'
+        example: '/images/banners/main-2.jpg'
+      - name: 'h1'
+        type: 'string'
+        example: 'An all-natural family business'
+      - name: 'h2'
+        type: 'string'
+        example: 'For over 40 years, our family has been curating a wide array of honey flavours.'
+      - name: 'icon'
+        type: 'string'
+        example: 'beehive'
+      - name: 'btn'
+        type: 'string'
+        example: 'Learn More'

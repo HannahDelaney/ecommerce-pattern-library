@@ -20,3 +20,6 @@ patternbot:
       The primary colours are variants of a warm yellowish-brown, meant of course to symbolize the honey being sold but to also look earthy and natural.
     colors.secondary: |
       This additional yellow is a brighter shade, that is meant to be used as an accent. The colour is reminiscent of honey but stands out from the main palette.
+  layouts:
+    default: |
+      The default layout should be used on every page of the site. It contains the header and footer navigations.
