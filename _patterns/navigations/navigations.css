@@ -26,6 +26,7 @@
 
 .header-nav a:hover {
   color: var(--color-primary);
+  border-bottom: 3px solid var(--color-primary-light);
 }
 
 .header-nav > li {
@@ -51,7 +52,7 @@ ul > li::before {
 }
 
 .current a:after {
-  content: "."
+  content: ".";
 }
 
 .current a {
@@ -76,8 +77,8 @@ ul > li::before {
 .burger-label {
   cursor: pointer;
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background-image: url("../images/hamburger.svg");
   background-repeat: no-repeat;
   position: relative;
