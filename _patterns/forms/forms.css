@@ -26,10 +26,6 @@ input:not([type="checkbox"]).search, input:not([type="radio"]).search {
   padding-left: 1.75rem;
 }
 
-/* .search:focus + label i {
-  display: none;
-} */
-
 /* Error Messages */
 
 .flag-optional,
