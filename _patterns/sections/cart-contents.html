@@ -1,0 +1,60 @@
+<div class="your-order gutter-2 pad-t-2 pad-b-2">
+    <h1 class="peta pad-t-2">Your Order</h1>
+    <div class="cart-product grid gutter-1-2 pad-t">
+      <div class="unit xs-1-2">
+        <i class="icon i-64">
+          <svg><use xlink:href="/images/icons.svg#{{include.icon}}" /></svg>
+        </i>
+      </div>
+      <div class="unit xs-1-2">
+        <h4>{{include.product-name}}</h4>
+        <div class="grid">
+          <h2 class="unit xs-1-2 product-quantity mega">{{include.product-quantity}}</h2>
+          <a href="#">
+            <i class="unit xs-1-2 icon i-1">
+              <svg><use xlink:href="/images/icons.svg#x" /></svg>
+            </i>
+          </a>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="cart-product grid gutter-1-2 pad-t">
+      <div class="unit xs-1-2">
+        <i class="icon i-64">
+          <svg><use xlink:href="/images/icons.svg#{{include.icon2}}" /></svg>
+        </i>
+      </div>
+      <div class="unit xs-1-2">
+        <h4>{{include.product-name2}}</h4>
+        <div class="grid">
+          <h2 class="unit xs-1-2 product-quantity mega">{{include.product-quantity2}}</h2>
+          <a href="#">
+            <i class="unit xs-1-2 icon i-1">
+              <svg><use xlink:href="/images/icons.svg#x" /></svg>
+            </i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="cost-additional pad-t-2 gutter">
+      <div class="grid">
+        <h5 class="unit xs-1-2">Subtotal:</h5>
+        <p class="unit xs-1-2">{{include.subtotal}}</p>
+      </div>
+      <div class="grid">
+        <h5 class="unit xs-1-2">Shipping:</h5>
+        <p class="unit xs-1-2"><span class="bold">Flat</span> $18.00</p>
+      </div>
+      <div class="grid">
+        <h5 class="unit xs-1-2">Tax:</h5>
+        <p class="unit xs-1-2">$0.00</p>
+      </div>
+    </div>
+    <hr>
+  <div class="total pad-t pad-b-2 gutter grid">
+    <h4 class="bold unit xs-1-2">Total:</h4>
+    <h5 class="not-bold unit xs-1-2">{{include.total}}</h5>
+  </div>
+
+</div>

@@ -8,21 +8,11 @@ patterns:
     description: |
       The product information is displayed on every product page, to provide information for customers.
     fields:
-      - name: 'image'
-        type: 'string'
-        example: 'honey/honey-alfalfa.png'
-      - name: 'icon'
-        type: 'string'
-        example: 'alfalfa'
-      - name: 'product-title'
-        type: 'string'
-        example: 'Honey with Alfalfa'
-      - name: 'product-info'
-        type: 'string'
-        example: 'This delicious honey is a sweet treat for anyone who appreciates the tangy edge provided by the essense of alfalfa.'
-      - name: 'product-price'
-        type: 'string'
-        example: '$8.00'
+      - name: data
+        type: object
+        data:
+          source: "site.shop[0]"
+          type: page
   subscribe:
     title: "Subscribe Banner"
     description: |
@@ -32,3 +22,72 @@ patterns:
       - name: 'image'
         type: 'string'
         example: 'honey/honey-alfalfa.png'
+  cart-view:
+    title: "Cart View Sidebar"
+    description: |
+      This sidebar appears on individual product pages, to indicate to customers what items they have already placed in their carts.
+    fields:
+      - name: 'icon'
+        type: 'string'
+        example: 'coffee'
+      - name: 'product-name'
+        type: 'string'
+        example: 'Honey with Coffee'
+      - name: 'product-quantity'
+        type: 'string'
+        example: '2 x $8.99'
+      - name: 'product-name2'
+        type: 'string'
+        example: 'Honey with Orange'
+      - name: 'product-quantity2'
+        type: 'string'
+        example: '1 x $8.99'
+      - name: 'icon2'
+        type: 'string'
+        example: 'orange'
+      - name: 'subtotal'
+        type: 'string'
+        example: '$26.97'
+  cart-contents:
+    title: "Cart Contents Sidebar"
+    description: |
+      This sidebar appears on the cart page, to show what is in the cart while the customer inputs their credit card and purchasing information.
+    fields:
+      - name: 'icon'
+        type: 'string'
+        example: 'coffee'
+      - name: 'product-name'
+        type: 'string'
+        example: 'Honey with Coffee'
+      - name: 'product-quantity'
+        type: 'string'
+        example: '2 x $8.99'
+      - name: 'product-name2'
+        type: 'string'
+        example: 'Honey with Orange'
+      - name: 'product-quantity2'
+        type: 'string'
+        example: '1 x $8.99'
+      - name: 'icon2'
+        type: 'string'
+        example: 'orange'
+      - name: 'subtotal'
+        type: 'string'
+        example: '$26.97'
+      - name: 'total'
+        type: 'string'
+        example: '$44.97'
+  shop-section-headers:
+    title: "Shop Section Separators"
+    description: |
+      These section headers separate the shop contents to easily view everything, and to keep things organized.
+    fields:
+      - name: 'h3'
+        type: 'string'
+        example: 'Honey'
+      - name: 'icon'
+        type: 'string'
+        example: 'honeypot-main'
+      - name: 'id'
+        type: 'string'
+        example: 'honey'

@@ -1,0 +1,61 @@
+<div class="view-cart-sidebar">
+
+  <input class="cart-open" name="cart-open" id="cart-open" type="checkbox" aria-label="Click to open Cart view" required>
+  <div class="close-nav">
+    <label class="cart-label" for="cart-open"></label>
+  </div>
+
+  <div class="open-nav gutter-2 push pad-t-2 pad-b-2">
+    <i class="icon i-96 cart-disappear">
+      <svg><use xlink:href="/images/icons.svg#cart" /></svg>
+    </i>
+    <h1 class="peta">Cart</h1>
+    <div class="cart-view-product grid gutter-1-2 pad-t">
+      <div class="unit xs-1-4">
+        <i class="icon i-64">
+          <svg><use xlink:href="/images/icons.svg#{{include.icon}}" /></svg>
+        </i>
+      </div>
+      <div class="unit xs-3-4">
+        <h4>{{include.product-name}}</h4>
+        <div class="grid">
+          <h2 class="unit xs-1-2 product-quantity mega">{{include.product-quantity}}</h2>
+          <a href="#">
+            <i class="unit xs-1-2 icon i-1">
+              <svg><use xlink:href="/images/icons.svg#x" /></svg>
+            </i>
+          </a>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="cart-view-product grid gutter-1-2 pad-t">
+      <div class="unit xs-1-4">
+        <i class="icon i-64">
+          <svg><use xlink:href="/images/icons.svg#{{include.icon2}}" /></svg>
+        </i>
+      </div>
+      <div class="unit xs-3-4">
+        <h4>{{include.product-name2}}</h4>
+        <div class="grid">
+          <h2 class="unit xs-1-2 product-quantity mega">{{include.product-quantity2}}</h2>
+          <a href="#">
+            <i class="unit xs-1-2 icon i-1">
+              <svg><use xlink:href="/images/icons.svg#x" /></svg>
+            </i>
+          </a>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="subtotal pad-t">
+      <h4 class="bold">Subtotal: <span class="not-bold">{{include.subtotal}}</span></h4>
+    </div>
+    <div class="view-cart-btns gutter pad-t">
+      <div class="btn-space">
+        {% pattern buttons/main btn="View Cart" link="/cart/" %}
+      </div>
+      {% pattern buttons/solid solid="CHECKOUT" link="/cart/" %}
+    </div>
+  </div>
+</div>
