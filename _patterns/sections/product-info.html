@@ -1,17 +1,17 @@
 <div class="product-info">
   <div class="grid grid-middle gutter-1-4">
-    <div class="unit xs-1 m-1-2 gutter">
+    <div class="unit xs-1 m-1-2 gutter-1-2">
       <div class="embed embed-1by1">
-        <img class="embed-item" src="/images/products/{{include.image}}" alt="">
+        <img class="embed-item" src="/images/products/{{include.data.image}}" alt="{{include.data.alt}}">
       </div>
     </div>
-    <div class="unit xs-1 m-1-2 gutter">
-      <i class="icon i-128">
-        <svg><use xlink:href="/images/icons.svg#{{include.icon}}" /></svg>
+    <div class="unit xs-1 m-1-2 gutter-1-2">
+      <i class="icon brown-icon i-128">
+        <svg><use xlink:href="/images/icons.svg#{{include.data.icon}}" /></svg>
       </i>
-      <h3 class="zetta push-1-2">{{include.product-title}}</h3>
-      <p>{{include.product-info}}</p>
-      <p class="peta push-1-2 price">{{include.product-price}}</p>
+      <h3 class="zetta push-1-2">{{include.data.name}}</h3>
+      <p>{{include.data.description}}</p>
+      <p class="peta push-1-2 price">${{include.data.price}}</p>
       <div class="grid grid-bottom">
         <div class="unit xs-1-2">
           {% pattern forms/number-form %}

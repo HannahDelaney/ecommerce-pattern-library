@@ -1,13 +1,13 @@
 <div class="breadcrumbs">
   <ol class="list-group-inline">
     <li>
-      <a class="gutter-1-8" href="#">Home</a><span> /</span>
+      <a class="gutter-1-8" href="/">Home</a><span> /</span>
     </li>
     <li>
-      <a class="gutter-1-8" href="#"> Shop</a><span> /</span>
+      <a class="gutter-1-8" href="/shop/"> Shop</a><span> /</span>
     </li>
     <li>
-      <a class="gutter-1-8" href="#"> {{include.shop-category}}</a><span> /</span>
+      <a class="gutter-1-8" href="/shop/#{{include.shop-category}}"> {{include.shop-category | capitalize }}</a><span> /</span>
     </li>
     <li>
       <a class="current gutter-1-8" href="#"> {{include.product}}</a>

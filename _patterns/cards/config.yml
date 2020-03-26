@@ -59,18 +59,11 @@ patterns:
     description: |
       These cards are used as links to individual product pages. Each one has a coloured overlay to showcase the icon and hover state "View Product" button. Each product has an individual icon associated to it.
     fields:
-      - name: 'image'
-        type: 'string'
-        example: 'honey/honey-orange-link.png'
-      - name: 'icon'
-        type: 'string'
-        example: 'orange'
-      - name: 'alt'
-        type: 'string'
-        example: 'Our product: honey with orange in a jar.'
-      - name: 'link'
-        type: 'url'
-        example: '#'
+      - name: data
+        type: object
+        data:
+          source: "site.shop[0]"
+          type: Product
   product-special:
     title: "Product with a special attribute"
     description: |
@@ -81,7 +74,7 @@ patterns:
         example: 'honey/honey-orange.png'
       - name: 'alt'
         type: 'string'
-        example: 'Our product: honey with orange in a jar.'
+        example: 'Our product: Honey with Orange in a Jar.'
       - name: 'alt-special'
         type: 'string'
         example: 'On Sale'

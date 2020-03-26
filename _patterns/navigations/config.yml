@@ -22,7 +22,7 @@ patterns:
     fields:
       - name: 'shop-category'
         type: 'string'
-        example: 'Body Products'
+        example: 'body'
       - name: 'product'
         type: 'string'
         example: 'After Sun Soother'
