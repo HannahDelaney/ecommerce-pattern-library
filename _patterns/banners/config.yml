@@ -59,22 +59,22 @@ patterns:
         type: 'url'
         example: '/shop/'
         required: false
-banner-btns:
-  title: "Banner with Buttons"
-  description: |
-    This banner image should have an image that is darker, so as to have the best contrast with the card overlay. Ideally, it will also feature a subject that is closer to the right so the subject is not covered by the card. This card is not nearly as frequent as the regular overlays, and should not be featured on any page that is linked in the three buttons that show on the card.
-  height: 800
-  fields:
-    - name: 'img'
-      type: 'string'
-      example: '/images/banners/shop-2.jpg'
-    - name: 'icon'
-      type: 'string'
-      example: 'bee'
-    - name: 'border-color'
-      type: 'string'
-      example: 'primary-light'
-      - name: 'link'
-        type: 'url'
-        example: '/shop/'
-        required: false
+  banner-btns:
+    title: "Banner with Buttons"
+    description: |
+      This banner image should have an image that is darker, so as to have the best contrast with the card overlay. Ideally, it will also feature a subject that is closer to the right so the subject is not covered by the card. This card is not nearly as frequent as the regular overlays, and should not be featured on any page that is linked in the three buttons that show on the card.
+    height: 800
+    fields:
+      - name: 'img'
+        type: 'string'
+        example: '/images/banners/shop-2.jpg'
+      - name: 'icon'
+        type: 'string'
+        example: 'bee'
+      - name: 'border-color'
+        type: 'string'
+        example: 'primary-light'
+        - name: 'link'
+          type: 'url'
+          example: '/shop/'
+          required: false

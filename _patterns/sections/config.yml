@@ -91,3 +91,7 @@ patterns:
       - name: 'id'
         type: 'string'
         example: 'honey'
+  related:
+    title: "Related Product List"
+    description: |
+      This section is to be displayed on product pages, to suggest alternate products that are of a similar category.
