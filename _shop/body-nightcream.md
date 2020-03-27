@@ -8,4 +8,5 @@ alt: "Our product: Night Cream"
 icon: "night-cream"
 price: 12.99
 category: body
+category-icon: "body-main"
 ---

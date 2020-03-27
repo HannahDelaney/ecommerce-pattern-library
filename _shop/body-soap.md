@@ -8,4 +8,5 @@ alt: "Our product: Classic Soap"
 icon: "soap"
 price: 4.99
 category: body
+category-icon: "body-main"
 ---

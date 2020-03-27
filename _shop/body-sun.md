@@ -8,4 +8,5 @@ alt: "Our product: Soothing Sun Cream"
 icon: "sun-cream"
 price: 15.99
 category: body
+category-icon: "body-main"
 ---

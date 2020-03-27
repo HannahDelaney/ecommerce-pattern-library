@@ -8,4 +8,5 @@ alt: "Our product: Honey with Alfalfa"
 icon: "alfalfa"
 price: 8.99
 category: honey
+category-icon: "honeypot-main"
 ---

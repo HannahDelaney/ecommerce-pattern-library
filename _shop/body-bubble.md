@@ -8,4 +8,5 @@ alt: "Our product: Bubble Bath"
 icon: "bubble"
 price: 12.99
 category: body
+category-icon: "body-main"
 ---

@@ -8,4 +8,5 @@ alt: "Our product: Jar Candle"
 icon: "glass-candle"
 price: 15.99
 category: candle
+category-icon: "candle-main"
 ---

@@ -8,4 +8,5 @@ alt: "Our product: Beeswax Lip Balm"
 icon: "lips"
 price: 4.99
 category: body
+category-icon: "body-main"
 ---

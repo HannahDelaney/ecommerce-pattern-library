@@ -55,6 +55,10 @@ patterns:
       - name: 'btn'
         type: 'string'
         example: 'Learn More'
+      - name: 'link'
+        type: 'url'
+        example: '/shop/'
+        required: false
 banner-btns:
   title: "Banner with Buttons"
   description: |
@@ -70,3 +74,7 @@ banner-btns:
     - name: 'border-color'
       type: 'string'
       example: 'primary-light'
+      - name: 'link'
+        type: 'url'
+        example: '/shop/'
+        required: false

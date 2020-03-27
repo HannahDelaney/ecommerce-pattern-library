@@ -8,4 +8,5 @@ alt: "Our product: Honey Handcream"
 icon: "hand-cream"
 price: 8.99
 category: body
+category-icon: "body-main"
 ---

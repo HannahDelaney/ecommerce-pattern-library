@@ -8,4 +8,5 @@ alt: "Our product: Honey Tealight Candles — Multi Pack"
 icon: "tealight-multiple"
 price: 23.99
 category: candle
+category-icon: "candle-main"
 ---
