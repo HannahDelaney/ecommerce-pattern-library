@@ -94,4 +94,4 @@ patterns:
   related:
     title: "Related Product List"
     description: |
-      This section is to be displayed on product pages, to suggest alternate products that are of a similar category.
+      This section will not be properly displayed in this library, as it requires a product listing to show similar products, based on category. It will properly display on product pages, to suggest alternate products that are of a similar category.
