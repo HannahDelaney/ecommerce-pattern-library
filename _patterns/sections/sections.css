@@ -15,7 +15,11 @@
 }
 
 .product-name {
-  text-align: left;
+  text-align: center;
+}
+
+.form-credit-card {
+  background-color: #c7c8ca;
 }
 
 @media only screen and (min-width: 25em) {
@@ -210,6 +214,8 @@ input.cart-open {
 .your-order {
   background-color: var(--color-primary-light);
   max-width: 500px;
+  position: relative;
+  left: 0;
 }
 
 .cart-product {
