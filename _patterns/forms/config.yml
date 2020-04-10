@@ -8,54 +8,126 @@ patterns:
     title: "Search"
     description: |
       Search bar in the main navigation, seen on every page.
-    width: 500
+    width: 600
   basic-required-form:
     title: "Basic Required"
     description: |
       Basic text input for forms, which is required to submit.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Text Field'
+      - name: 'placeholder'
+        type: 'string'
+        example: 'eg. Write Text Here'
+    width: 600
   basic-form:
     title: "Basic"
     description: |
       Basic text input for forms, to provide small pieces of optional information.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Basic Text Field'
+      - name: 'placeholder'
+        type: 'string'
+        example: 'eg. Write Text Here'
+    width: 600
   email-form:
     title: "Email"
     description: |
       Input for email addresses, included as part of the purchasing process to confirm shipments, purchases and link customers to the "bee-monthly" newsletter.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Email Address'
+      - name: 'placeholder'
+        type: 'string'
+        example: 'yourname@email.com'
+    width: 600
   phone-form:
     title: "Phone Number"
     description: |
       Input allowing customers to provide a phone number, if they are interested in being contacted in this way in addition to email, concerning their purchase.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Telephone Number'
+    width: 600
   radio-form:
     title: "Radio"
     description: |
       Radio buttons can be used for establishing more information about the customer, and confirming their consent to being emailed by the company.
-    width: 500
+    fields:
+      - name: 'legend'
+        type: 'string'
+        example: 'Would you like to be signed up for our bee-monthly email newsletter?'
+    width: 600
   textarea-form:
     title: "Large Text Area"
     description: |
       A larger area in which customers can type more qualifying information. Would be used in the checkout process to request special instructions for the purchase and deliver process.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Write more text here. '
+    width: 600
   selector-form:
     title: "Selector"
     description: |
       Allows customers to choose from multiple options. This is to be used for a product size picker (ie. which size honey jar they wish to purchase), or a province picker in the checkout.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Which item are you interested in?'
+      - name: 'item1'
+        type: 'string'
+        example: 'Item 1'
+      - name: 'item2'
+        type: 'string'
+        example: 'Item 2'
+      - name: 'item3'
+        type: 'string'
+        example: 'Item 3'
+    width: 600
   number-form:
     title: "Number Picker"
     description: |
       This picker is to be used to select the quantity of items to be purchased when adding a product to the cart.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'Quantity'
+    width: 600
   checkbox-form:
     title: "Checkbox"
     description: |
+      A checkbox, that has no link in the label field.
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'I would like to receive email updates from Vitamin Bee!'
+    width: 600
+  checkbox-form-w-link:
+    title: "Checkbox with a link"
+    description: |
       Primary use is at the end of the purchasing form, to verify the customer has read terms of use.
-    width: 500
+    fields:
+      - name: 'label'
+        type: 'string'
+        example: 'I have read and agree to the '
+      - name: 'link'
+        type: 'string'
+        example: '#'
+      - name: 'link-label'
+        type: 'string'
+        example: 'terms and conditions.'
+      - name: 'error-label'
+        type: 'string'
+        example: 'Please read the terms and conditions and accept.'
+    width: 600
   warning-form:
     title: "Error Messages"
     description: |
       Any field input that has required information (this will be almost all of them) needs to provide an alert if customers do not properly submit their information. Submitting this sample form without the required inputs being filled will show the error messages.
-    width: 500
+    width: 600

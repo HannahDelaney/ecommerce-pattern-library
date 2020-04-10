@@ -1,11 +1,11 @@
-<label for="selector">Which item are you interested in?</label>
-<select id="selector" required aria-describedby="selector-error">
+<label class="push-1-2"for="selector">{{include.label}}</label>
+<select class="push-1-2" id="selector" required aria-describedby="selector-error">
 <p class="error-message milli island-1-4 push-0" id="selector-error">
   <i class="icon i-16"><svg><use xlink:href="/images/icons.svg#warning" /></svg></i>
   <span class="icon-label">Please choose one of the options.</span>
 </p>
   <option value="">Select One...</option>
-  <option>Item One</option>
-  <option>Item Two</option>
-  <option>Item Three</option>
+  <option>{{include.item1}}</option>
+  <option>{{include.item2}}</option>
+  <option>{{include.item3}}</option>
 </select>
