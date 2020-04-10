@@ -11,7 +11,7 @@ patterns:
     fields:
       - name: 'img'
         type: 'string'
-        example: '/images/banners/main-1.jpg'
+        example: 'main-1'
       - name: 'h1'
         type: 'string'
         example: 'WELCOME to the bee box'
@@ -39,7 +39,7 @@ patterns:
     fields:
       - name: 'img'
         type: 'string'
-        example: '/images/banners/main-2.jpg'
+        example: 'main-2'
       - name: 'h1'
         type: 'string'
         example: 'An all-natural family business'
@@ -67,7 +67,7 @@ patterns:
     fields:
       - name: 'img'
         type: 'string'
-        example: '/images/banners/shop-2.jpg'
+        example: 'shop-2'
       - name: 'icon'
         type: 'string'
         example: 'bee'

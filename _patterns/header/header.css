@@ -7,7 +7,7 @@
 
 .scribble-top {
   z-index: 1000;
-  bottom: -1rem;
+  bottom: -0.5rem;
   width: 100%;
 }
 
@@ -22,12 +22,20 @@
     padding-right: 2.6rem;
   }
 
+  .scribble-top {
+    bottom: -1rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .logo {
     left: 30%;
+  }
+
+  .scribble-top {
+    bottom: -1.5rem;
   }
 
 }
