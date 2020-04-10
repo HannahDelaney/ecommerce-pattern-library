@@ -1,0 +1,77 @@
+---
+layout: default
+title: Checkout
+---
+
+{% pattern banners/banner-light-card img="checkout" h1="Checkout" h2="Make your purchase." icon="cart" border-color="primary-dark" %}
+<div class="checkout-container grid">
+  <div class="unit xs-1 m-1-2 l-1-3">
+    {% pattern sections/cart-contents icon="coffee" product-name="Honey with Coffee" product-quantity="2 x $8.99" product-name2="Honey with Orange" product-quantity2="1 x $8.99" icon2="orange" subtotal="$26.97" total="$44.97" %}
+  </div>
+  <div class="unit xs-1 m-1-2 l-2-3 right-checkout pad-t-2">
+    <h3 class="pad-t pad-b-1-4 gutter">Billing Details</h3>
+
+    <form class="checkout-form" method="post" action="#" novalidate>
+      <div class="grid push-2 gutter">
+        <div class="unit xs-1 gutter-1-4 push-1-2 error-message error-message-highlighted island" role="alert" aria-live="assertive">
+          <h3 class="push-0">
+            <i class="icon i-32">
+              <svg><use xlink:href="/images/icons.svg#warning" /></svg>
+            </i>
+            <span class="icon-label">Oops! There is something missing. Please fill in the required fields.</span>
+          </h3>
+        </div>
+        <div class="unit xs-1 gutter-1-4 push-1-2">
+          {% pattern forms/basic-required-form label="Full Name" placeholder="eg. Barry Bee" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/basic-required-form label="Street Address" placeholder="eg. 123 Honey Lane" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/basic-required-form label="Town/City" placeholder="eg. Ottawa" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/basic-required-form label="Province" placeholder="eg. Ontario" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/basic-required-form label="Postal Code" placeholder="_ _ _  _ _ _" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/phone-form label="Telephone Number" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/email-form label="Email Address" placeholder="yourname@email.com" %}
+        </div>
+        <div class="unit xs-1 gutter-1-4 push-1-2">
+          {% pattern forms/radio-form legend="Would you like to be signed up for our bee-monthly email newsletter?" %}
+        </div>
+        <div class="unit xs-1 gutter-1-4 push-1-2 pad-t-1-2">
+          {% pattern forms/textarea-form label="Special Instructions " %}
+        </div>
+      </div>
+      <div class="grid form-credit-card pad-t-2 island">
+        <div class="unit xs-1 gutter-1-4 push-1-2 pad-t-2">
+          {% pattern forms/basic-required-form label="Credit Card Number" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/basic-required-form label="Expiry Date" %}
+        </div>
+        <div class="unit xs-1 l-1-2 gutter-1-4 push-1-2">
+          {% pattern forms/basic-required-form label="Card Code (CVC)" %}
+        </div>
+        <div class="unit xs-1 gutter-1-4">
+          <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="">privacy policy</a>.</p>
+        </div>
+        <div class="unit xs-1 gutter-1-4 push-1-2 pad-b">
+          {% pattern forms/checkbox-form-w-link label="I have read and agree to the " link="#" link-label="terms and conditions." error-label="Please read the terms and conditions and accept." %}
+        </div>
+        <div class="unit xs-1 gutter-1-4 push-1-2 pad-b-2">
+          <button class="btn" type="submit">PLACE ORDER</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+</div>
+<script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
