@@ -5,9 +5,13 @@
       <img class="embed-item" src="/images/cards/card-dark.svg" alt="A brown honeycomb hexagon.">
     </div>
     <div class="card-content">
-      <h1 class="peta push-1-2">{{include.h1}}</h1>
+      {% if include.h1 %}
+        <h1 class="peta push-1-2">{{include.h1}}</h1>
+        {% else %}
+        <p>{{include.h1-alt}}</p>
+      {% endif %}
       <hr class="push-1-2">
-      <h2 class="kilo">{{include.h2 | capitalize}}</h2>
+      <h2 class="kilo">{{include.h2}}</h2>
       {% if include.link %}
         {% pattern buttons/main btn=include.btn link=include.link %}
       {% endif %}
