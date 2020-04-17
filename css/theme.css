@@ -13,6 +13,7 @@
 html {
   font-family: var(--font-primary);
   color: var(--color-black);
+  font-display: swap;
 }
 
 /* Typography */
@@ -131,10 +132,6 @@ mark {
   color: var(--color-primary-dark);
 }
 
-/* .icon a {
-  color: var(--color-black);
+table {
+  min-width: 40rem;
 }
-
-.icon a:hover {
-  color: var(--color-primary-dark);
-} */

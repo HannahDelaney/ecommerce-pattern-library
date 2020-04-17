@@ -101,3 +101,12 @@
   }
 
 }
+
+@media only screen and (max-height: 32em) {
+
+  .banner-dark,
+  .banner-light {
+    min-height: 435px;
+  }
+
+}
