@@ -2,15 +2,17 @@
 layout: default
 ---
 
-{% pattern banners/banner-light-card img=page.category h1="SHOP" h2=page.category icon=page.category-icon border-color="primary-dark"  %}
-{% pattern sections/cart-view icon="coffee" product-name="Honey with Coffee" product-quantity="2 x $8.99" product-name2="Honey with Orange" product-quantity2="1 x $8.99" icon2="orange" subtotal="$26.97" %}
-<div class="edges pad-t-1-4 pad-b-2">
-  {% pattern navigations/breadcrumbs shop-category=page.category product=page.name %}
-  <div class="grid">
-    <div class="unit xs-1 xl-3-4">
-      {% pattern sections/product-info data=page %}
-    </div>
+  {% pattern banners/banner-light-card img=page.category h1="SHOP" h2=page.category icon=page.category-icon border-color="primary-dark"  %}
+  <div id="main">
+    {% pattern sections/cart-view icon="coffee" product-name="Honey with Coffee" product-quantity="2 x $8.99" product-name2="Honey with Orange" product-quantity2="1 x $8.99" icon2="orange" subtotal="$26.97" %}
   </div>
-{% pattern sections/related %}
-</div>
-{% pattern banners/banner-dark-card img="product-2" h1-alt="Test" h2="Interested in learning more about the life cycle and culture of bees? Visit us!" icon="bee" btn="Learn More" border-color="primary-light" %}
+  <div class="edges pad-t-1-4 pad-b-2">
+    {% pattern navigations/breadcrumbs shop-category=page.category product=page.name %}
+    <div class="grid">
+      <div class="unit xs-1 xl-3-4">
+        {% pattern sections/product-info data=page %}
+      </div>
+    </div>
+  {% pattern sections/related %}
+  </div>
+  {% pattern banners/banner-dark-card img="product-2" h1="Come and see the bees!" h2="Interested in learning more about the life cycle and culture of bees? Visit us!" icon="bee" btn="Learn More" link="/visit/" border-color="primary-light" %}

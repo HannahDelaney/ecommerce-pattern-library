@@ -118,7 +118,7 @@ patterns:
         example: 'I have read and agree to the '
       - name: 'link'
         type: 'string'
-        example: '#'
+        example: '/legal/'
       - name: 'link-label'
         type: 'string'
         example: 'terms and conditions.'
