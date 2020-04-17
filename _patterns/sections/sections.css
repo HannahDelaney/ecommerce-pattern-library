@@ -1,3 +1,7 @@
+.name {
+  color: var(--color-primary-dark);
+  }
+
 .product-info {
   max-width: 90vw;
 }
