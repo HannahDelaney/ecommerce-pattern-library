@@ -60,13 +60,13 @@ title: Checkout
           {% pattern forms/basic-required-form label="Card Code (CVC)" %}
         </div>
         <div class="unit xs-1 gutter-1-4">
-          <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="">privacy policy</a>.</p>
+          <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="/legal/">privacy policy</a>.</p>
         </div>
         <div class="unit xs-1 gutter-1-4 push-1-2 pad-b">
-          {% pattern forms/checkbox-form-w-link label="I have read and agree to the " link="#" link-label="terms and conditions." error-label="Please read the terms and conditions and accept." %}
+          {% pattern forms/checkbox-form-w-link label="I have read and agree to the " link="/legal/" link-label="terms and conditions." error-label="Please read the terms and conditions and accept." %}
         </div>
         <div class="unit xs-1 gutter-1-4 push-1-2 pad-b-2">
-          <button class="btn" type="submit">PLACE ORDER</button>
+          <button class="btn btn-solid" type="submit">PLACE ORDER</button>
         </div>
       </div>
     </form>
