@@ -112,6 +112,15 @@
 
 }
 
+@media only screen and (max-height: 32em) {
+
+  .subscribe {
+    min-height: 550px;
+  }
+
+}
+
+
 /* View Cart */
 
 .btn-space .btn {
