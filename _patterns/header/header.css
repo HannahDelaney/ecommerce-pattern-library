@@ -15,6 +15,10 @@
   padding-bottom: .5rem;
 }
 
+.search-space {
+  padding-top: 1rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   .edges {
@@ -36,6 +40,10 @@
 
   .scribble-top {
     bottom: -1.5rem;
+  }
+
+  .search-space {
+    padding-top: 0;
   }
 
 }
